@@ -1,0 +1,20 @@
+.hero {
+  @apply snap-center;
+
+  .typewriter {
+    @apply h-screen flex-center-center flex-col space-y-8 text-center overflow-hidden;
+
+    .backgroundCircles {
+      @apply relative flex-center-center;
+    }
+
+    .image {
+      @apply relative rounded-full mx-auto object-cover;
+    }
+
+    .hero__button {
+      @apply rounded-full border border-solid border-[#242424] uppercase px-6 py-2 text-sm tracking-widest text-gray-500 transition-all
+      hover:border-[#F7AB0A]/40 hover:text-[#F7AB0A]/40;
+    }
+  }
+}

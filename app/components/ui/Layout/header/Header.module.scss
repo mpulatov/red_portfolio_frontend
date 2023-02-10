@@ -1,0 +1,17 @@
+.header {
+  @apply sticky top-0 p-5 flex items-start justify-between max-w-7xl mx-auto z-20 xl:items-center;
+
+  .logo {
+    @apply flex-center-row text-xl text-black font-bold;
+    line-height: 0.8;
+  }
+
+  .gmail {
+    @apply flex-center-row text-gray-300 cursor-pointer;
+
+    p {
+      @apply uppercase hidden md:inline-flex text-sm text-gray-400;
+    }
+  }
+
+}
