@@ -21,3 +21,22 @@ export const FADE_IN_CIRCLES: MotionProps = {
 	},
 	transition: { duration: 2.5 }
 }
+
+export const FADE_IN: MotionProps = {
+	initial: { opacity: 0 },
+	transition: { duration: 1.2 },
+	whileInView: { opacity: 1 }
+}
+export const FADE_IN_PROFILE: MotionProps = {
+	initial: { x: -200, opacity: 0 },
+	transition: { duration: 1.2 },
+	whileInView: { x: 0, opacity: 1 },
+	viewport: { once: true }
+}
+
+export const FADE_IN_EXPERIENCE_CARD: MotionProps = {
+	initial: { y: -100, opacity: 0 },
+	transition: { duration: 1.2 },
+	whileInView: { y: 0, opacity: 1 },
+	viewport: { once: true }
+}

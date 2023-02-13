@@ -1,0 +1,25 @@
+.experience {
+	@apply snap-center;
+
+	.container {
+		@apply h-screen flex relative overflow-hidden flex-col text-left md:flex-row max-w-full px-10 justify-evenly mx-auto items-center;
+
+		.title {
+			@apply absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl;
+		}
+
+		.card {
+			@apply w-full relative flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory;
+
+			.experience_card {
+				@apply flex flex-col rounded-lg items-center space-y-7
+        flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center
+        bg-[#292929] p-10 opacity-40 cursor-pointer transition-opacity duration-200 overflow-hidden hover:opacity-100;
+
+				.image {
+					@apply w-32 h-32 rounded-full xl:w-[200px] xl:h-[200px] object-cover object-center;
+				}
+			}
+		}
+	}
+}

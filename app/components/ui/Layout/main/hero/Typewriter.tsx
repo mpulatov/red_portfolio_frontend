@@ -20,10 +20,10 @@ const Typewriter: FC = () => {
 		<div className={styles.typewriter}>
 			<BackgroundCircles />
 			<Image
-				src='/favicon.ico'
+				src='/Avatar.jpg'
 				alt='Avatar'
-				width={50}
-				height={50}
+				width={60}
+				height={60}
 				className={styles.image}
 			/>
 			<div className='z-20'>

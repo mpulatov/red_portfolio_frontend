@@ -1,5 +1,5 @@
 .hero {
-  @apply snap-center;
+  @apply snap-start;
 
   .typewriter {
     @apply h-screen flex-center-center flex-col space-y-8 text-center overflow-hidden;

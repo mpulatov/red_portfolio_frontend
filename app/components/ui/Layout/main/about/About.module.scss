@@ -1,0 +1,7 @@
+.about {
+  @apply snap-center;
+
+  .image {
+    @apply -mb-20 md:mb-0 flex-shrink-0 rounded-full md:rounded-lg object-cover w-56 h-56 md:w-64 md:h-96 xl:w-[500px] xl:h-[600px]
+  }
+}
