@@ -1,5 +1,7 @@
 import { Inter } from '@next/font/google'
 import type { NextPage } from 'next'
+import Image from 'next/image'
+import Link from 'next/link'
 
 import Layout from '@/ui/Layout/Layout'
 import About from '@/ui/Layout/main/about/About'
@@ -20,6 +22,19 @@ const Home: NextPage = () => {
 			<Skills />
 			<Projects />
 			<ContactMe />
+			<Link href='#hero'>
+				<footer className='sticky bottom-5 w-full cursor-pointer'>
+					<div className='flex items-center justify-center'>
+						<Image
+							src='/Photo.jpg'
+							alt='avatar'
+							width={50}
+							height={50}
+							className='rounded-full filter grayscale hover:grayscale-0 cursor-pointer object-cover object-center'
+						/>
+					</div>
+				</footer>
+			</Link>
 		</Layout>
 	)
 }
