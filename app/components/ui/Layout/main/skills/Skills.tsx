@@ -8,7 +8,7 @@ import Skill from '@/ui/Layout/main/skills/Skill'
 
 const Skills: FC = () => {
 	return (
-		<section id='Skills' className={styles.skills}>
+		<section id='skills' className={styles.skills}>
 			<motion.div className={styles.container} {...FADE_IN}>
 				<h3 className='absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl'>
 					Skills
@@ -18,7 +18,7 @@ const Skills: FC = () => {
 					Hover over a skill for currency proficiency
 				</h3>
 
-				<div className='grid grid-cols-3 gap-5'>
+				<div className='grid grid-cols-4 gap-5'>
 					<Skill />
 					<Skill />
 					<Skill />

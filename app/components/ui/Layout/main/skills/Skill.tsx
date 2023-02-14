@@ -11,9 +11,9 @@ const Skill: FC = ({ directionLeft }: Props) => {
 			<motion.img
 				src='/sass.png'
 				alt='typescript'
-				initial={{ x: directionLeft ? -200 : 150, opacity: 0 }}
+				initial={{ x: directionLeft ? -250 : 250, opacity: 0 }}
 				transition={{ duration: 1 }}
-				whileInView={{ opacity: 1, x: 0 }}
+				whileInView={{ x: 0, opacity: 1 }}
 				className='rounded-full border border-gray-500 w-24 h-24 md:w-28 md:h-28 xl:w-32 xl:h-32
 				filter group-hover:grayscale object-cover transition duration-300 ease-in-out'
 			/>

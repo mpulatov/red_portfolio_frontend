@@ -68,6 +68,7 @@ module.exports = {
 					boxShadow: '0 4px 10px rgba(45, 8, 125, 0.2)'
 				}
 			})
-		})
+		}),
+		require('tailwind-scrollbar')
 	]
 }
